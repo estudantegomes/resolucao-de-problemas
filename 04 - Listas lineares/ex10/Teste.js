@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Josephus_1 = require("./Josephus");
+var Pessoa_1 = require("./Pessoa");
+var p1, p2, p3, p4, p5;
+p1 = new Pessoa_1.default("A", 1);
+p2 = new Pessoa_1.default("B", 2);
+p3 = new Pessoa_1.default("C", 3);
+p4 = new Pessoa_1.default("D", 4);
+p5 = new Pessoa_1.default("E", 5);
+var j = new Josephus_1.default([p1, p2, p3, p4, p5]);
+console.log(j.ultimaPessoa());

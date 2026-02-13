@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Flofs_1 = require("./Flofs");
+var m = [37, 36, 36, 37, 38];
+var m2 = [36, 37, 38, 39, 37];
+var m3 = [36, 37, 38, 36, 37, 38];
+var m4 = [36, 36, 36, 36, 36];
+var f = new Flofs_1.default(m);
+var f2 = new Flofs_1.default(m2);
+var f3 = new Flofs_1.default(m3);
+var f4 = new Flofs_1.default(m4);
+console.log(f.getUnpaired());
+console.log(f2.getUnpaired());
+console.log(f3.getUnpaired());
+console.log(f4.getUnpaired());
